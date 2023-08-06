@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# To do
+trainer
+main.py
+# *.ipynb
+storage
+
 # C extensions
 *.so
 
