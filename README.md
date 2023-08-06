@@ -10,6 +10,14 @@ To install the necessary dependencies, run the following:
 pip install pythainlp seqeval torch==2.0.1 python=3.8.16 protobuf==3.20.0 transformers==4.29.2
 ```
 
+## Downloading the Checkpoint
+
+You can download the checkpoint and unzip the storage file from [LINK](https://vistec-my.sharepoint.com/:f:/g/personal/weerayut_b_s20_vistec_ac_th/EhCu1EJLsZJEpAVmT3c6D3oBy0y7lb0CzBN-9xsutlzdJg?e=zrYwzK). Once downloaded, extract the files to ensure the appropriate directory structure.
+
+```bash
+unzip downloaded_checkpoint.zip -d storage/
+```
+
 ## Directory tree
 
 ```
@@ -45,9 +53,6 @@ python inference.py --resume based-lst20/0804_224007_970844/checkpoint.pth
 
 - The `--resume` flag points to the saved checkpoint file to load the model for testing.
 
-## License
-
-This project is licensed under CC-BY-SA 3.0. You can find more information about the license in the LICENSE file.
 
 ## Acknowledgements
 
