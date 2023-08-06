@@ -12,7 +12,8 @@ pip install pythainlp seqeval torch==2.0.1 python=3.8.16 protobuf==3.20.0 transf
 
 ## Downloading the Checkpoint
 
-You can download the checkpoint and unzip the storage file from [LINK](https://vistec-my.sharepoint.com/:f:/g/personal/weerayut_b_s20_vistec_ac_th/EhCu1EJLsZJEpAVmT3c6D3oBy0y7lb0CzBN-9xsutlzdJg?e=zrYwzK). Once downloaded, extract the files to ensure the appropriate directory structure.
+You can download the checkpoint and unzip the storage file from [LINK](https://vistec-my.sharepoint.com/:f:/g/personal/weerayut_b_s20_vistec_ac_th/EhCu1EJLsZJEpAVmT3c6D3oBy0y7lb0CzBN-9xsutlzdJg?e=zrYwzK). 
+Once downloaded, extract the files to ensure the appropriate directory structure.
 
 ```bash
 unzip downloaded_checkpoint.zip -d storage/
