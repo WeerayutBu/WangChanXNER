@@ -152,8 +152,8 @@ def predict(model, text, lm_path, ids2tag, max_sent_length=512):
     lm_tokens = out['lm_tokens']
     input_ids = out['input_ids']
     
-    mask = torch.tensor([mask])
-    input_ids = torch.tensor([input_ids])
+    mask = torch.tensor([mask]).to(model.lm.device)
+    input_ids = torch.tensor([input_ids]).to(model.lm.device)
     loss, logits = model(input_ids, mask)
     preds = logits.argmax(axis=-1)
     entity = get_dict_prediction(

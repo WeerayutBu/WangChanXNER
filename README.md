@@ -5,9 +5,14 @@ Welcome to WangChanXNER! This repository contains a basic implementation for seq
 ## Installation
 
 To install the necessary dependencies, run the following:
+python=3.8.16
 
 ```bash
-pip install pythainlp seqeval torch==2.0.1 python=3.8.16 protobuf==3.20.0 transformers==4.29.2
+pip install pythainlp
+pip install seqeval
+pip install torch==2.0.1
+pip install protobuf==3.20.0
+pip install transformers==4.29.2
 ```
 
 ## Downloading the Checkpoint
