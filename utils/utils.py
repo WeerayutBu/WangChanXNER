@@ -132,6 +132,7 @@ def show(x):
     text+= f"{''.join(x['text'])}"
     print(text)
 
+
 def get_dict_prediction(tokens, preds, attention_mask, ids2tag):
     temp_preds=[]
     for index in range(len(preds)):    
@@ -144,6 +145,7 @@ def get_dict_prediction(tokens, preds, attention_mask, ids2tag):
     temp_preds = span2json(tokens, temp_preds)   
     return temp_preds
     
+
 def predict(model, text, lm_path, ids2tag, max_sent_length=512):
     tokens = word_tokenize(text, engine='newmm')
     out = InputLM(lm_path, max_sent_length)(tokens,[])
@@ -156,7 +158,5 @@ def predict(model, text, lm_path, ids2tag, max_sent_length=512):
     input_ids = torch.tensor([input_ids]).to(model.lm.device)
     loss, logits = model(input_ids, mask)
     preds = logits.argmax(axis=-1)
-    entity = get_dict_prediction(
-                lm_tokens, preds[0], 
-                mask[0], ids2tag)
+    entity = get_dict_prediction(lm_tokens, preds[0], mask[0], ids2tag)
     return lm_tokens, sorted(entity, key=lambda t: t['span'])
