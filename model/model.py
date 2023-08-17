@@ -46,7 +46,7 @@ class NERModel(nn.Module):
         # print(len(outputs))  # 3 for roberta and bert, 4 for luke
         hidden_states = outputs[2]
         # print(len(hidden_states))  # 13
-        embedding_output = hidden_states[0]
+        # embedding_output = hidden_states[0]
         hidden_states = hidden_states[1:]
         hidden_states = torch.stack(hidden_states,dim=-1).mean(dim=-1)
         return hidden_states
