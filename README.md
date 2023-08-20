@@ -21,7 +21,7 @@ transformers==4.29.2
 
 ## Downloading the Checkpoint
 
-You can download the checkpoint and unzip the storage file from [LINK](https://vistec-my.sharepoint.com/:f:/g/personal/weerayut_b_s20_vistec_ac_th/EhCu1EJLsZJEpAVmT3c6D3oBy0y7lb0CzBN-9xsutlzdJg?e=zrYwzK).
+You can download the checkpoint and unzip the storage file from [LINK](https://drive.google.com/drive/folders/1-E294YAOVlXX_jcKI61j6M9-xmz_klIO?usp=sharing).
 
 Once downloaded, extract the files to ensure the appropriate directory structure.
 
