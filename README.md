@@ -21,7 +21,9 @@ transformers==4.29.2
 
 ## Downloading the Checkpoint
 
-You can download the checkpoint and unzip the storage file from [LINK](https://drive.google.com/drive/folders/1-E294YAOVlXX_jcKI61j6M9-xmz_klIO?usp=sharing).
+Test the model with [Colab](https://colab.research.google.com/drive/1XL8U6_u5bIIFNiyqfg9RMJcG__3kXtGi?usp=sharing).
+
+You can download the checkpoint from our google drive: [checkpoint](https://drive.google.com/drive/folders/1-E294YAOVlXX_jcKI61j6M9-xmz_klIO?usp=sharing).
 
 Once downloaded, extract the files to ensure the appropriate directory structure.
 
