@@ -23,7 +23,7 @@ transformers==4.29.2
 
 Test the model with [Colab](https://colab.research.google.com/drive/1XL8U6_u5bIIFNiyqfg9RMJcG__3kXtGi?usp=sharing).
 
-You can download the checkpoint from our google drive: [checkpoint](https://drive.google.com/drive/folders/1-E294YAOVlXX_jcKI61j6M9-xmz_klIO?usp=sharing).
+You can download the checkpoint from our google drive: [checkpoint](https://drive.google.com/drive/folders/1u-Auuo7cph4I1d78ezzM3mW4oieZlZuU?usp=share_link).
 
 Once downloaded, extract the files to ensure the appropriate directory structure.
 
